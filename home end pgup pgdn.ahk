@@ -1,15 +1,31 @@
-~RShift & Left::
++>^Left::
+Send, +{Home}
+return
+
+>^Left::
 Send, {Home}
 return
 
-~RShift & Right::
++>^Right::
+Send, +{End}
+return
+
+>^Right::
 Send, {End}
 return
 
-~RShift & Up::
++>^Up::
+Send, +{PgUp}
+return
+
+>^Up::
 Send, {PgUp}
 return
 
-~RShift & Down::
++>^Down::
+Send, +{PgDn}
+return
+
+>^Down::
 Send, {PgDn}
 return
